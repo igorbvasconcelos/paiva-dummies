@@ -1,0 +1,32 @@
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+.titulo-pagina {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 32px;
+    color: black;
+}
+
+.mensagem-erro {
+    background-color: #ffdddd;
+    color: #b30000;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.mensagem-vazia {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+}
+.grid-receita {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
